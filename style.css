@@ -1,0 +1,209 @@
+:root {
+    --main-color: #111111;
+    --secondary-color: #1B1B1B;
+    --card-color: #3a3a3a;
+    --text-color: #dadada;
+
+    --primary-size: 4rem;
+    --secondary-size: 3em;
+    --default-size: 1em;
+}
+
+
+/* Default html elements */
+body {
+    overflow-x: hidden;
+    margin: 0;
+    background-color: var(--main-color);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: var(--primary-size);
+}
+
+h2 {
+    font-size: var(--secondary-size);
+}
+
+h3 {
+    font-size: var(--default-size);
+}
+
+/*header section*/
+
+.header {
+    background: url(img/banner.jpg);
+    overflow: hidden;
+    background-size: cover;
+}
+
+.header-wrapper {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    color: var(--text-color);
+    padding: 5%;
+}
+
+.header-content {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: var(--text-color);
+}
+
+/* Education Section */
+
+.education {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 100%;
+    padding: 5%;
+}
+
+.education-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.card {
+    display: flex;
+    margin: 1em;
+}
+
+.card:hover {
+    scale: 1.05;
+    transition: all .5s;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: var(--card-color);
+    width: 16em;
+    height: 16em;
+    padding: 1em;
+}
+
+.card-icon {
+    display: flex;
+    color: var(--secondary-color);
+    justify-content: center;
+    font-size: 6em;
+    margin: .25em;
+}
+
+/* Work Experience Section */
+
+.experience {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 100%;
+    padding: 5%;
+}
+
+.experience-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.experience-card-wrapper {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.experience-card {
+    display: flex;
+    margin: 1em;
+}
+
+.experience-card:hover {
+    scale: 1.05;
+    transition: all .5s;
+}
+
+.experience-card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: var(--card-color);
+    width: 20em;
+    height: 20em;
+    padding: 1em;
+}
+
+.company-logo {
+    width: 20%;
+    height: auto;
+    padding: 1em;
+}
+
+
+/*Skills Section */
+
+.skills {
+    background-color: var(--primary-color);
+    color: var(--text-color);
+    width: 100%;
+    padding: 5%;
+}
+
+.skills-wrapper {
+    width: 100%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 4px;
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+}
+
+.skills-content {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.skills-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--card-color);
+    width: 9em;
+    height: 9em;
+    padding: 1em;
+    margin: 1em;
+}
+
+.skills-card:hover {
+    scale: 1.1;
+    transition: all .5s;
+}
+
+.skills-card-img {
+    width: 80%;
+}
+
